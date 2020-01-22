@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelModel", "PixelModel\PixelModel.csproj", "{E575E8E4-F437-420E-A4FD-EED8E23303E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelClient", "PixelClient\PixelClient.csproj", "{59811FE9-44CF-4D77-AE3C-293071EE8882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E575E8E4-F437-420E-A4FD-EED8E23303E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E575E8E4-F437-420E-A4FD-EED8E23303E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E575E8E4-F437-420E-A4FD-EED8E23303E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E575E8E4-F437-420E-A4FD-EED8E23303E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59811FE9-44CF-4D77-AE3C-293071EE8882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59811FE9-44CF-4D77-AE3C-293071EE8882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59811FE9-44CF-4D77-AE3C-293071EE8882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59811FE9-44CF-4D77-AE3C-293071EE8882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41E4B34D-74EC-4295-9A80-1FB838D93F77}
+	EndGlobalSection
+EndGlobal

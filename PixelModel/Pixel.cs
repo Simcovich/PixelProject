@@ -23,18 +23,9 @@ namespace PixelModel
         {
             byte[] newArr = new byte[3];
             Random random = new Random();
-            int flag = random.Next(0, 2);
             for (int i = 0; i < DNA.Length; i++)
             {
-                if (flag == 1)
-                {
-                    newArr[i] = this.DNA[i];
-                }
-                else
-                {
-                    newArr[i] = pixel.DNA[i];
-                }
-                flag = random.Next(0, 2);
+                newArr[i] = (byte)random.Next(Math.Min(DNA[i], pixel.DNA[i]), Math.Max(DNA[i], pixel.DNA[i]));
             }
             return new Pixel(newArr) { Parents = new Pixel[2] { this, pixel }} ;
         }
